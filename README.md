@@ -18,7 +18,7 @@ This notebook performs both **full and incremental extraction** of a dataset usi
 #### ▶️ How to Run:
 1. Open `etl_extract.ipynb` in Jupyter.
 2. Run all cells in sequence.
-3. Ensure `last_extraction.txt` exists in the same folder. This file keeps track of the last extraction time.
+3. The `last_extraction.txt` keeps track of the last extraction time, updating anytime a change is made.
 
 #### 📊 Where the Data Comes From:
 - The sample dataset is from **Kaggle** 
