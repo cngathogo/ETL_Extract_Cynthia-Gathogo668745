@@ -26,3 +26,11 @@ This notebook performs both **full and incremental extraction** of a dataset usi
 
 ---
 
+### 📸 Example Screenshot
+
+![Data Preview](screenshots/terminalwork(1))
+![Data Preview](screenshots/terminalwork(2))
+![Data Preview](screenshots/used_dataset)
+
+
+
