@@ -27,4 +27,32 @@ This notebook performs both **full and incremental extraction** of a dataset usi
 ---
 
 
+---
+
+## Lab 5 – Load
+
+### ✅ Loading Method Used
+
+- **SQLite Database**
+- Implemented using Python’s built-in `sqlite3` and Pandas `to_sql()`.
+
+### 📥 Loaded Targets
+
+- `loaded_data/full_data.db` – from `transformed_full.csv`
+- `loaded_data/incremental_data.db` – from `transformed_incremental.csv`
+
+### 💾 Schema Used
+
+```sql
+CREATE TABLE full_data (
+    id INTEGER PRIMARY KEY,
+    customer_name TEXT,
+    product TEXT,
+    quantity INTEGER,
+    unit_price REAL,
+    total_price REAL,
+    order_date TEXT
+);
+
+
 
